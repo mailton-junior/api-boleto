@@ -1,5 +1,6 @@
 package br.com.mailton.api_boleto.service;
 
+import br.com.mailton.api_boleto.controller.exception.ApplicationException;
 import br.com.mailton.api_boleto.dto.TicketDTO;
 import br.com.mailton.api_boleto.entity.TicketEntity;
 import br.com.mailton.api_boleto.entity.enums.SituationTicket;
@@ -22,7 +23,7 @@ public class TicketService {
     public TicketDTO save(String barcode) {
         Optional<TicketEntity> ticketOptional = ticketRepository.findTicketByBarcode(barcode);
         if (ticketOptional.isPresent()) {
-            throw new RuntimeException("Já existe uma solicitação de pagamento para este boleto");
+            throw new ApplicationException("Já existe uma solicitação de pagamento para este boleto");
         }
 
         TicketEntity ticketEntity = TicketEntity.builder()
