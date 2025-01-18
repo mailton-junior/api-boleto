@@ -1,0 +1,15 @@
+{
+    "type": "record",
+    "namespace": "br.com.mailton.avro",
+    "name": "Ticket",
+    "fields": [
+        {
+            "name": "barcode",
+            "type": "string"
+        },
+        {
+            "name": "situationTicket",
+            "type": "int"
+        }
+    ]
+}
