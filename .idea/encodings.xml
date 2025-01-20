@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/api-boleto/api-boleto/api-boleto/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api-boleto/api-boleto/api-boleto/target/generated-sources/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api-boleto/api-boleto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-boleto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/validator-ticket/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/validator-ticket/validator-ticket/src/main/java" charset="UTF-8" />
   </component>
 </project>

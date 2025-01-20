@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/api-boleto/api-boleto/pom.xml" />
         <option value="$PROJECT_DIR$/api-boleto/api-boleto/api-boleto/pom.xml" />
         <option value="$PROJECT_DIR$/validator-ticket/validator-ticket/pom.xml" />
+        <option value="$PROJECT_DIR$/validator-ticket/pom.xml" />
+        <option value="$PROJECT_DIR$/api-boleto/pom.xml" />
       </list>
     </option>
   </component>
