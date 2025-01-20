@@ -17,7 +17,14 @@ public class TicketProducer {
     }
 
     public void sendMessage(Ticket ticket) {
-        kafkaTemplate.send(topico, ticket);
+        kafkaTemplate.send(topico, "2" ,ticket);
+    }
+
+    private String getKey(Ticket ticket) {
+        if (ticket.getBarcode().toString().substring(0,1).equals("2")) {
+            return "chave1";
+        }
+        return "chave2";
     }
 
 }
